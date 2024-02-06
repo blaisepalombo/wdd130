@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
 body {
     background-color: rgb(206, 190, 169);
     padding: 0;
@@ -24,13 +26,18 @@ nav {
 }
 
 img{
-    width: 30%;
+    width: 40%;
     display: block;
     margin: 0 auto;
+    border: 5px solid darkgreen;
+    box-sizing: border-box;
+    border-radius: 50%;
 }
 
 a {
     color: black;
+    font-family: "Protest Strike", 'Times New Roman', serif;
+
 }
 
 nav a:hover {
@@ -41,10 +48,23 @@ nav a:hover {
 #main_title {
     font-size: 4em;
     text-align: center;
+    font-family: "Protest Strike", 'Times New Roman', serif;
 }
 
-p, h3 {
+footer p, h3 {
     text-align: center;
+}
+
+main p {
+    width: 40%;
+    margin: 50px auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 20px;
+    background-color: orangered;
+    border: 5px solid darkgreen;
+    box-sizing: border-box;
+    border-radius: 30px;
 }
 
 #sub_title {
@@ -54,5 +74,5 @@ p, h3 {
 
 footer {
     background-color: orangered;
-    padding: 10px;
+    padding: 20px;
 }
