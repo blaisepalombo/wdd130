@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Inconsolata:wght@500&display=swap');
+
 #content { 
     max-width: 1600px;
     margin: 0 auto;
@@ -5,8 +8,9 @@
 
 nav a {
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -23,44 +27,63 @@ main section {
 
 #background {
     height: 50px;
-    background-color: pink;
+    background-color: white;
 }
 
 body {
     background-color: darkcyan;
+    font-family: Inconsolata, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
-    background-color: darkcyan;
+    background-color: #f9fae7;
 }
 
 nav a:hover {
-    background-color: whitesmoke;
-    color: black;
+    background-color: darkcyan;
+    color: white;
 }
 
 .book, .join {
-    background-color: whitesmoke;
-    color: black;
+    background-color: black;
+    color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .msg {
-    background-color: whitesmoke;
+    background-color: #f9fae7;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
-    background-color: darkcyan;
-    color: white;
+    background-color: white;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: navy;
+    font-family: 'Honk', 'Bradley Hand', serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -69,14 +92,19 @@ h4 {
 
 .msg h2 {
     color: green;
+    font-family: 'Inconsolata', 'Times New Roman', Times, serif;
+    font-size: 1em;
+
 }
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -86,6 +114,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -102,4 +131,24 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
