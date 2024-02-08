@@ -146,7 +146,8 @@ footer .social img {
 }
 
 .card-img {
-    border: 10px black;
+    border: 10px #f9fae7;
+    border-style: solid;
 }
 
 main section img {
