@@ -76,3 +76,9 @@ footer {
     background-color: orangered;
     padding: 20px;
 }
+
+@media screen and (max-width: 900px) {
+    main {
+        display: block;
+    }
+}
