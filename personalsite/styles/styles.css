@@ -115,10 +115,10 @@ nav {
 }
 
 #logo-image {
-    width: 20%;
-    padding: 10px;
+    width: 40%;
     border-radius: 30px;
     justify-content: center;
+    padding-top: 100px;
 }
 
 nav a {
@@ -271,4 +271,5 @@ footer a:hover {
 #instagram,
 #twitter {
     padding: 10px;
+    width: 75%;
 }
