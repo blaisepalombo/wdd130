@@ -316,3 +316,15 @@ footer a:hover {
     background-color: #171817; 
     color: white;
 }
+
+#menu h1, #hours h1{
+  background-color: #006e97;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+#hours-image, #menu-image {
+  padding: 50px;
+}
