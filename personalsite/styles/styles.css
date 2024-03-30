@@ -206,7 +206,6 @@ nav a:hover {
     margin: 0 auto;
     font-size: 1.3em;
 }
-    
 
 #burger {
     grid-column: 1/5;
@@ -305,7 +304,7 @@ footer a:hover {
   
 .dropdown-content a:hover {
     background-color: #ddd;
-     color: black;
+    color: black;
 }
   
 .dropdown:hover .dropdown-content {
@@ -320,9 +319,9 @@ footer a:hover {
 #menu h1, #hours h1{
   background-color: #006e97;
   width: 100px;
-  text-align: center;
   padding: 10px;
   color: white;
+  margin: 0 auto;
 }
 
 #hours-image, #menu-image {
