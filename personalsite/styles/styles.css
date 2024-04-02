@@ -327,3 +327,28 @@ footer a:hover {
 #hours-image, #menu-image {
   padding: 50px;
 }
+
+#third-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+
+.first-au-paragraph {
+  text-align: center;
+}
+
+#waiter {
+  grid-row: 2/3;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+#happy-people {
+  grid-row: 2/3;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+}
